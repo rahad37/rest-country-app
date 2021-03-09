@@ -10,7 +10,7 @@ const CountryDetail = () => {
         fetch(`https://restcountries.eu/rest/v2/name/${name}`)
         .then(res => res.json())
         .then(data => setCountry(data[0]));
-    },[])
+    },[name])
     const {flag, capital, region, area, population} = country;
     return (
         <div className='nice'>
