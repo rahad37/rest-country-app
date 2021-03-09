@@ -1,0 +1,10 @@
+.nice{
+    text-align: center;
+    background: goldenrod;
+    padding: 50px;
+}
+.nice img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}

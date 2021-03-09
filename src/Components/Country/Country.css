@@ -1,0 +1,16 @@
+.design{
+    border: 2px solid purple;
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    background: purple;
+    color: white;
+}
+.size{
+    width: 1200px;
+    margin: 0 auto;
+}
